@@ -4,6 +4,7 @@
   "description": "Combine stream dictionary-objects in Kefir.js",
   "main": "kefir-combine-object.js",
   "scripts": {
+    "test": "mocha spec.js",
     "prepublish": "npm run build",
     "build": "babel kefir-combine-object.es6 -o kefir-combine-object.js"
   },
@@ -29,7 +30,8 @@
     "babel-plugin-transform-es2015-modules-umd": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-1": "^6.5.0",
-    "eslint": "^2.13.1"
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.3"
   },
   "dependencies": {
     "kefir": "^3.2.3",
